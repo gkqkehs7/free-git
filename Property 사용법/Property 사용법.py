@@ -6,6 +6,6 @@ class Person:
 
 person = Person("Min", "Doe", 2)
 print(person.age) #20
-
+print(person.age)
 #이렇게 필드명을 사용해서 객체의 내부 데이터에 접근하는 것은 편리하지만,
 #해당 데이터는 외부로 부터 무방비 상태에 놓이게 됩니다.
